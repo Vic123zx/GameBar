@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Encabezado{
+    display: flex;
+}
+
+
+.hero{
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    background-image: url(../);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.Parrafo{
+    margin: 30px 25px;
+}
+.Subtitulo{
+padding: 10px;
+width: 200px;
+border-radius: 50px;
+background-color: #00f;
+font-size: 20px;
+
+}
+.Subtitulo a{
+    text-decoration: none;
+    color: #fff;
+}
+.Texto-hero{
+    text-align: center;
+}
+.cotenedor-texto{
+    margin: auto;
+}
+.img-gaming{
+  align-items: center;
+}
+.card{
+    width: 450px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+.Texto-card{
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.card-game{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-card{
+    object-fit: cover;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.card a{
+    color: #fff;
+    background-color: #00f;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 50px;
+
+}
+.Titulo{
+    text-align: center;
+}
+@media (max-width:700px){
+    .dropdown-item{
+    }
+    .card{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+    .img-gaming{
+        margin: auto;
+    }
+
+}
+@media (max-width:420x){
+    .card{
+        width: 400px;
+        height: 400px;  
+           margin: 20px 0 0 0;  }
+}
+@media (max-width:983px){
+    .card{
+        width: 400px;
+        height: 400px;  
+        margin: 50px auto;
+           
+    }
+    .img-gaming{
+        margin: auto;
+    }
+}
+@media (max-width:1440px){
+    .card{
+        margin: 50px auto;
+        width:450px;
+        height: 450px;
+        
+    }
+}
+@media(max-width:290px){
+    .Texto-card{
+        font-size: 2px;
+    }
+    .card a{
+        width: 100px;
+    }
+}
