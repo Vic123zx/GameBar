@@ -5,27 +5,61 @@
 }
 .Encabezado{
     display: flex;
+    background-color:#FFF;
+}
+.Encabezado h3{
+    color: #000;
+}
+.nav{
+    display: flex;
+    background-color:#fff;
+    justify-content: center;
+  
+}
+.nav a{
+    color: #000;
 }
 
-
 .hero{
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     height: 50vh;
     align-items: center;
-    background-image: url(../);
-    object-fit: cover;
-    background-repeat: no-repeat;
+    background-color:#fff;
+   }
+.img-grand-autos{
+  align-self: center;
+  align-content: space-between;
+}
+.Grand{
+    width: 400px;
+    margin: 0 0 0 10px;
 }
 .Parrafo{
     margin: 30px 25px;
+}
+.God{
+    width: 600px;
+    margin: 0 0 0 10px;
+    align-self: center;
+
+}
+.Titulo-hero{
+    margin: auto 0 auto 160px;
+    align-content: center;
+    align-self: center;
+    
+}
+.Titulo-hero h2{
+color: #000;
 }
 .Subtitulo{
 padding: 10px;
 width: 200px;
 border-radius: 50px;
-background-color: #00f;
+background-color: #000;
 font-size: 20px;
+margin: 0 25px;
 
 }
 .Subtitulo a{
@@ -35,6 +69,7 @@ font-size: 20px;
 .Texto-hero{
     text-align: center;
 }
+
 .cotenedor-texto{
     margin: auto;
 }
@@ -56,6 +91,7 @@ font-size: 20px;
 
 }
 .card-game{
+    background-color:#000;
     display: flex;
     flex-wrap: wrap;
 }
@@ -80,6 +116,9 @@ font-size: 20px;
 }
 .Titulo{
     text-align: center;
+}
+.Subtitulo a:hover{
+  color:#0d6efd;
 }
 @media (max-width:700px){
     .dropdown-item{
@@ -126,4 +165,46 @@ font-size: 20px;
     .card a{
         width: 100px;
     }
+}
+@media (max-width:1338px){
+    .Titulo-hero{
+        margin: auto
+    }
+    .Subtitulo a{
+     font-size: 15px;
+    }
+    .God{
+        width: 300px;
+    }
+    .Grand{
+        width: 300px;
+    }
+}
+@media(max-width:775px){
+    .God{
+        width: 150px;
+    }
+    .Grand{
+        width: 150px;
+    }
+    
+}
+@media(max-width:472px){
+    .God{
+        width: 80px;
+    }
+    .Grand{
+        width: 80px;
+    }
+}
+@media(max-width:330px){
+    
+.Subtitulo{
+    width: 30px;
+    font-size: 1px;
+    padding: 3px;
+}
+.Subtitulo a{
+    font-size: 3px;
+}
 }
