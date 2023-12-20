@@ -92,19 +92,20 @@ margin: 20px 0 0 55px;
     color: #0d6efd;
 }
 .Ver-mas-Section1{
-    color: #FFF;
+      color: #FFF;
     text-decoration: none;
     background-color: #00f;
-    width: 100px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     align-content: center;
     margin: 20px 43px 0 40px;
+    width: 60x;
+    height: 50px;
 }
 .Top{
     display: flex;
     background-color: #000;
-
+    justify-content: space-between;
 }
 .img-gaming{
   align-items: center;
