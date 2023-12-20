@@ -72,11 +72,9 @@ color: #000;
 .Subtitulo{
 font-size: 20px;
 margin: 0 33px;
+text-decoration: none;
+color: #000;
 
-}
-.Subtitulo a{
-    text-decoration: none;
-    color: #000;
 }
 .Texto-hero{
     text-align: center;
@@ -84,8 +82,22 @@ margin: 0 33px;
 .Top-a{
 text-decoration: none;   
 color: #fff; 
+font-size: 25px;
+margin: 20px 0 0 50px;
+font-weight: bolder;
+
+}
+.Top-2{
+    display: flex;
+    background-color: #FFF;
+    justify-content: space-between;
+}
+.Top-2 a{
+text-decoration: none;   
+color: #000;; 
 font-size: 30px;
 margin: 20px 0 0 50px;
+font-weight: bolder;
 
 }
 .Top-a:hover{
@@ -155,8 +167,31 @@ margin: 20px 0 0 50px;
 .Titulo{
     text-align: center;
 }
-.Subtitulo a:hover{
+.Subtitulo:hover{
   color:#0d6efd;
+}
+.Tarjetas-cotenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Tarjeta{
+    margin: 10px 10px 0 0;
+}
+.Boton-tarjeta{
+    margin: 20px auto 20px auto;
+}
+.img-tarjeta{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+.Boton-tarjeta a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #00f;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 @media (max-width:700px){
     .dropdown-item{
@@ -191,6 +226,7 @@ margin: 20px 0 0 50px;
 
 }
 @media (max-width:1440px){
+
     .card{
         margin: 50px auto;
         width:450px;
@@ -208,6 +244,10 @@ margin: 20px 0 0 50px;
     }
 }
 @media (max-width:1338px){
+    .img-tarjeta{
+        width: 300px;
+        height: 300px;
+    }
     .Titulo-hero{
         margin: auto
     }
@@ -235,7 +275,7 @@ margin: 20px 0 0 50px;
         width: 60px;
     }
     .Grand{
-        width: 40px;
+        width: 60px;
     }
 }
 @media(max-width:330px){
@@ -258,3 +298,15 @@ margin: 20px 0 0 50px;
         width: 100px;
     }
 }
+@media (max-width:954px){
+    .Tarjeta-3{
+        margin: 10px auto auto auto;
+    }
+    }
+    @media (max-width:632px){
+        .Tarjeta{
+            margin:  10px auto auto auto;
+        }
+    }
+
+
