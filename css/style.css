@@ -85,14 +85,15 @@ margin: 0 33px;
 text-decoration: none;   
 color: #fff; 
 font-size: 30px;
-margin: 20px 0 0 55px;
+margin: 20px 0 0 50px;
 
 }
 .Top-a:hover{
     color: #0d6efd;
 }
 .Ver-mas-Section1{
-      color: #FFF;
+   
+    color: #FFF;
     text-decoration: none;
     background-color: #00f;
     padding: 10px;
@@ -100,12 +101,14 @@ margin: 20px 0 0 55px;
     align-content: center;
     margin: 20px 43px 0 40px;
     width: 60x;
-    height: 55px;
+    height: 55x;
+
 }
 .Top{
     display: flex;
     background-color: #000;
     justify-content: space-between;
+
 }
 .img-gaming{
   align-items: center;
@@ -115,7 +118,7 @@ margin: 20px 0 0 55px;
     height: 450px;
     margin: 50px auto;
     border-radius: 10px;
-    margin-top:40px;
+    margin-top: 40px;
 
 }
 .Texto-card{
@@ -185,6 +188,7 @@ margin: 20px 0 0 55px;
     .img-gaming{
         margin: auto;
     }
+
 }
 @media (max-width:1440px){
     .card{
