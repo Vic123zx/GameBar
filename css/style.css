@@ -81,9 +81,20 @@ margin: 0 33px;
 .Texto-hero{
     text-align: center;
 }
+.Top-a{
+text-decoration: none;   
+color: #fff; 
+font-size: 30px;
+margin: 20px 0 0 50px;
 
-.cotenedor-texto{
-    margin: auto;
+}
+.Top-a:hover{
+    color: #0d6efd;
+}
+.Top{
+    display: flex;
+    background-color: #000;
+
 }
 .img-gaming{
   align-items: center;
