@@ -82,7 +82,7 @@ color: #000;
 .Top-a{
 text-decoration: none;   
 color: #fff; 
-font-size: 25px;
+font-size: 20px;
 margin: 20px 0 0 50px;
 font-weight: bolder;
 
@@ -120,6 +120,7 @@ font-weight: bolder;
     display: flex;
     background-color: #000;
     justify-content: space-between;
+    flex-wrap:wrap;
 
 }
 .img-gaming{
@@ -207,6 +208,11 @@ font-weight: bolder;
 
 }
 @media (max-width:420x){
+    .Ver-mas-Section1 a{
+    font-size: 2px;
+    line-height: 0.5;
+    padding: 3px;
+    }
     .card{
         width: 400px;
         height: 400px;  
@@ -251,17 +257,21 @@ font-weight: bolder;
     .Titulo-hero{
         margin: auto
     }
-    .Subtitulo a{
+    .Subtitulo{
      font-size: 15px;
     }
     .God{
-        width: 300px;
+        width: 250px;
     }
     .Grand{
-        width: 300px;
+        width: 200px;
     }
 }
 @media(max-width:775px){
+    .Game-bar{
+        margin: auto;
+    }
+
     .God{
         width: 150px;
     }
@@ -279,18 +289,16 @@ font-weight: bolder;
     }
 }
 @media(max-width:330px){
-    .Titulo-hero h2{
-        font-size: 7px;
-        margin: 0 0 5px 25px;
-    }
-    
+    .Game-bar{
+        text-align: center;
+    } 
 .Subtitulo{
     width: 20px;
     font-size: 0.5px;
     padding: 3px;
 }
-.Subtitulo a{
-    font-size: 3px;
+.Subtitulo {
+    font-size: 2px;
 }
 }
 @media(max-width:500px){
@@ -302,10 +310,20 @@ font-weight: bolder;
     .Tarjeta-3{
         margin: 10px auto auto auto;
     }
+    .Top-2 a{
+        margin: auto;
     }
+    }
+    
     @media (max-width:632px){
         .Tarjeta{
             margin:  10px auto auto auto;
+        }
+    }
+    @media(max-width:360px){
+        .Ver-mas-Section1{
+            margin: 20px 43px 0 50px;
+
         }
     }
 
