@@ -37,35 +37,17 @@
 }
 
 .hero{
-    justify-content: space-between;
+    background-image: url(../img/hero.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
     display: flex;
-    height: 50vh;
+    background-position:center;
+    justify-content: center;
+    height: 90vh;
     align-items: center;
     background-color:#fff;
    }
-.img-grand-autos{
-  align-self: center;
-  align-content: space-between;
-}
-.Grand{
-    width: 400px;
-    margin: 0 0 0 10px;
-}
-.Parrafo{
-    margin: 30px 25px;
-}
-.God{
-    width: 600px;
-    margin: 0 0 0 10px;
-    align-self: center;
 
-}
-.Titulo-hero{
-    margin: auto 0 auto 160px;
-    align-content: center;
-    align-self: center;
-    
-}
 .Titulo-hero h2{
 color: #000;
 }
@@ -89,7 +71,7 @@ font-weight: bolder;
 }
 .Top-2{
     display: flex;
-    background-color: #FFF;
+    background-color: #fff;
     justify-content: space-between;
 }
 .Top-2 a{
@@ -101,7 +83,7 @@ font-weight: bolder;
 
 }
 .Top-a:hover{
-    color: #0d6efd;
+    color: #fff;
 }
 .Ver-mas-Section1{
    
@@ -123,15 +105,11 @@ font-weight: bolder;
     flex-wrap:wrap;
 
 }
-.img-gaming{
-  align-items: center;
-}
 .card{
     width: 450px;
     height: 450px;
     margin: 50px auto;
-    border-radius: 10px;
-    margin-top: 40px;
+    border-radius: 5px;
 
 }
 .Texto-card{
@@ -168,10 +146,8 @@ font-weight: bolder;
 .Titulo{
     text-align: center;
 }
-.Subtitulo:hover{
-  color:#0d6efd;
-}
 .Tarjetas-cotenedor{
+    background-color:#fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -194,25 +170,39 @@ font-weight: bolder;
     padding: 10px 10px;
     border-radius: 5px;
 }
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+footer{
+    background-color: #000;
+    padding: 20px;
+}
+.img-footer{
+    display: inline-block;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon img{
+    background-color: #fff;
+    width: 35px;
+    border-radius: 50px;
+}
+.Titulo-footer h2{
+    text-align: center;
+}
 @media (max-width:700px){
-    .dropdown-item{
-    }
-    .card{
+        .card{
         width: 400px;
         height: 400px;
-        margin: auto;
-    }
-    .img-gaming{
         margin: auto;
     }
 
 }
 @media (max-width:420x){
-    .Ver-mas-Section1 a{
-    font-size: 2px;
-    line-height: 0.5;
-    padding: 3px;
-    }
     .card{
         width: 400px;
         height: 400px;  
@@ -225,9 +215,6 @@ font-weight: bolder;
         height: 400px;  
         margin: 50px auto;
            
-    }
-    .img-gaming{
-        margin: auto;
     }
 
 }
@@ -253,52 +240,6 @@ font-weight: bolder;
     .img-tarjeta{
         width: 300px;
         height: 300px;
-    }
-    .Titulo-hero{
-        margin: auto
-    }
-    .Subtitulo{
-     font-size: 15px;
-    }
-    .God{
-        width: 250px;
-    }
-    .Grand{
-        width: 200px;
-    }
-}
-@media(max-width:775px){
-    .Game-bar{
-        margin: auto;
-    }
-
-    .God{
-        width: 150px;
-    }
-    .Grand{
-        width: 100px;
-    }
-    
-}
-@media(max-width:472px){
-    .God{
-        width: 60px;
-    }
-    .Grand{
-        width: 60px;
-    }
-}
-@media(max-width:330px){
-    .Game-bar{
-        text-align: center;
-    } 
-.Subtitulo{
-    width: 20px;
-    font-size: 0.5px;
-    padding: 3px;
-}
-.Subtitulo {
-    font-size: 2px;
 }
 }
 @media(max-width:500px){
@@ -320,11 +261,29 @@ font-weight: bolder;
             margin:  10px auto auto auto;
         }
     }
-    @media(max-width:360px){
-        .Ver-mas-Section1{
-            margin: 20px 43px 0 50px;
+
+     
+        @media(max-width:1431px){
+            .hero{
+                background-size: cover;
+                height: 70vh;
+            }
+        }
+        
+        @media(max-width:824px){
+            .hero{
+                height: 400px;
+            }
 
         }
-    }
-
-
+        @media(max-width:1074px){
+            .hero{
+                height: 50vh;
+            }
+        }
+        @media(max-width:434px){
+            .hero{
+                height: 200px;
+            }
+        }
+    
